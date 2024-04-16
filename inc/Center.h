@@ -13,4 +13,4 @@ public:
     // Center-specific methods go here
 };
 
-#endif // CENTER_H
+#endif

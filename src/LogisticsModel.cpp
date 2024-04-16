@@ -20,7 +20,7 @@ void LogisticsModel::readData(const std::string& fileName) {
     }
 
     // 中心、车辆、客户点数量是否异常
-    file >> count; // Number of centers
+    file >> count; 
     if (count < 0) {
         throw std::invalid_argument("Invalid number of centers.");
     }
@@ -34,7 +34,7 @@ void LogisticsModel::readData(const std::string& fileName) {
         centers[i] = {x, y};
     }
 
-    file >> count; // Number of vehicle types
+    file >> count; 
     if (count < 0) {
         throw std::invalid_argument("Invalid number of vehicle types.");
     }
@@ -53,7 +53,7 @@ void LogisticsModel::readData(const std::string& fileName) {
         }
     }
 
-    file >> count; // Number of customers
+    file >> count;
     if (count < 0) {
         throw std::invalid_argument("Invalid number of customers.");
     }

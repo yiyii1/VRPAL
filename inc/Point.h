@@ -12,4 +12,4 @@ public:
     // Point-specific methods go here
 };
 
-#endif // POINT_H
+#endif 

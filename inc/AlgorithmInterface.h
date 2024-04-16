@@ -10,4 +10,4 @@ public:
     virtual Route solve() = 0; // 纯虚函数，需要被派生类实现
 };
 
-#endif // ALGORITHM_INTERFACE_H
+#endif 

@@ -1,5 +1,6 @@
 #include "Vehicle.h"
 
+
 // 车辆 ：  数量，载重能力，速度，单位距离成本，启动成本
 Vehicle::Vehicle(int capacity, double unitDistanceCost, double startCost)
     : capacity(capacity), unitDistanceCost(unitDistanceCost), startCost(startCost) {}

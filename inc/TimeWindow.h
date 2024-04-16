@@ -9,4 +9,4 @@ struct TimeWindow {
     TimeWindow(int startTime, int endTime) : startTime(startTime), endTime(endTime) {}
 };
 
-#endif // TIME_WINDOW_H
+#endif 

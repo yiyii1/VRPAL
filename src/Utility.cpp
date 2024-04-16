@@ -6,5 +6,5 @@ void readDataFromFile(const std::string& fileName, LogisticsModel& model) {
 }
 
 void writeResultsToFile(const std::string& fileName, const LogisticsModel& model) {
-    // Write the results to a file
+    
 }
